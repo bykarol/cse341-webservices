@@ -1,7 +1,3 @@
-function rootPage(req, res) {
-  res.status(200).send("Hello World, This is Node JS from app.js!");
-}
-
 function homePage(req, res) {
   res.send('Hello World, This is home router');
 }
@@ -19,7 +15,6 @@ function logoutPage(req, res) {
 }
 
 module.exports = {
-  rootPage,
   homePage,
   profilePage,
   loginPage,
